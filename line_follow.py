@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-cap = cv2.VideoCapture("Line Following OpenCV.mp4")
+cap = cv2.VideoCapture(0)
 cap.set(3, 500)
 cap.set(4, 500)
 while True:
